@@ -1,5 +1,5 @@
 # Init swarm if not already done so
-docker swarm init
+```docker swarm init```
 
 # Create a docker network for everything to communicate on
 docker network create -d overlay --attachable kafka-net
@@ -13,7 +13,7 @@ docker service create --network kafka-net --name=zkui \
           --publish 9090:9090 \
           qnib/plain-zkui@sha256:30c4aa1236ee90e4274a9059a5fa87de2ee778d9bfa3cb48c4c9aafe7cfa1a13
           
-# See it all running
+# See it all running in the Docker Daemon
 docker service ls --format 'table {{.Name}}\t{{.Replicas}}\t{{.Ports}}'
 
 # Next:
