@@ -161,7 +161,8 @@ Possible challenges:
 
 1. Create a consumer
 2. Serialise differently (using an AVRO schema might be too hard)
-3. 
+3. Demonstrate consumer groups: https://www.tutorialspoint.com/apache_kafka/apache_kafka_consumer_group_example.htm
+4. Consumer from Twitter's streaming API https://www.tutorialspoint.com/apache_kafka/apache_kafka_real_time_application.htm
 
 
 
