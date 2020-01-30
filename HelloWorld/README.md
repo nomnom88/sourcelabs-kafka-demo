@@ -154,16 +154,12 @@ docker exec -e JMX_PORT=1235 $(docker ps -q --filter 'label=com.docker.swarm.ser
 ```
 
 
-Now we've got a cluster and seen how easy it is to connect I invite you all to have a crack at making something yourself.
+Now we've got a cluster and seen how easy it is to connect I invite you all to have a crack at making a consumer.
 
 
-Possible challenges:
+Once you've got your consumer up and running then we'll have a look at using the confluent platform.
 
-1. Create a consumer
-2. Serialise differently (using an AVRO schema might be too hard)
-3. Demonstrate consumer groups: https://www.tutorialspoint.com/apache_kafka/apache_kafka_consumer_group_example.htm
-4. Consumer from Twitter's streaming API https://www.tutorialspoint.com/apache_kafka/apache_kafka_real_time_application.htm
-
+See powerpoint.....
 
 
 
