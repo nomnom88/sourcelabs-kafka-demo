@@ -1,0 +1,7 @@
+kafka:
+  bootstrapAddress: tasks.broker:9092
+
+spring:
+  kafka:
+    consumer:
+      auto-offset-reset: earliest
